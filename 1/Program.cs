@@ -15,6 +15,24 @@ for (int i = 0; i < zonas; i++)
 		temperaturas[i, j] = double.Parse(Console.ReadLine());
 	}
 }
+Console.WriteLine("Tabla de temperaturas");
+
+Console.Write("Zona:Día");
+for (int j = 0; j < dias; j++)
+{
+	Console.Write($"Día {j + 1}");
+}
+Console.WriteLine();
+
+for (int i = 0; i < zonas; i++)
+{
+	Console.Write($"Zona {i + 1}");
+	for (int j = 0; j < dias; j++)
+	{
+		Console.Write($"{temperaturas[i, j]} ");
+	}
+	Console.WriteLine();
+}
 
 
 
