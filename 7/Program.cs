@@ -18,3 +18,9 @@ for (int i = 0; i < maquinas; i++)
 	{
 		Console.Write($"Turno {j + 1}: ");
 		produccion[i, j] = int.Parse(Console.ReadLine());
+		totalProduccion += produccion[i, j];
+	}
+}
+
+Console.WriteLine($"La producción total de la fábrica es: {totalProduccion}");
+    
