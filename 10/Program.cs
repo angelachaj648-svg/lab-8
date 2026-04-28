@@ -18,3 +18,15 @@ for (int i = 0; i < sucursales; i++)
 		Console.Write($"Producto {j + 1}: ");
 		inventario[i, j] = int.Parse(Console.ReadLine());
 	}
+}
+Console.Write("Ingrese el número de la sucursal a consultar: ");
+int sucursalSeleccionada = int.Parse(Console.ReadLine());
+
+if (sucursalSeleccionada < 1 || sucursalSeleccionada > sucursales)
+{
+	Console.WriteLine("Sucursal no válida.");
+}
+else
+{
+	Console.WriteLine($"Inventario de la sucursal {sucursalSeleccionada}:");
+}
