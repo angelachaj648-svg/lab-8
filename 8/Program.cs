@@ -27,3 +27,8 @@ for (int i = 0; i < jugadores; i++)
 	{
 		if (puntajes[i, j] > puntajeMaximo)
 		{
+			puntajeMaximo = puntajes[i, j];
+		}
+	}
+}
+Console.WriteLine($"El puntaje más alto obtenido es: {puntajeMaximo}");
