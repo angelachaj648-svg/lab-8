@@ -34,3 +34,8 @@ for (int i = 0; i < filas; i++)
 		}
 	}
 }
+
+if (!encontrado)
+{
+	Console.WriteLine("El código no se encuentra en la matriz.");
+}
