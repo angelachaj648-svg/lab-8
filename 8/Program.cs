@@ -18,3 +18,12 @@ for (int i = 0; i < jugadores; i++)
 		Console.Write($"Nivel {j + 1}: ");
 		puntajes[i, j] = int.Parse(Console.ReadLine());
 	}
+}
+int puntajeMaximo = puntajes[0, 0];
+
+for (int i = 0; i < jugadores; i++)
+{
+	for (int j = 0; j < niveles; j++)
+	{
+		if (puntajes[i, j] > puntajeMaximo)
+		{
