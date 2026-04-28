@@ -20,7 +20,7 @@ for (int i = 0; i < apartamentos; i++)
 	}
 }
 
-Console.WriteLine($"\nEl consumo total acumulado es: {total}");
+Console.WriteLine($"El consumo total acumulado es: {total}");
 
 
 

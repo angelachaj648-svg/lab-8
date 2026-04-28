@@ -1,8 +1,9 @@
 <Solution>
-  <Project Path="../../2/2 ej/2 ej.csproj" Id="eed8f7c0-f294-467c-a5c8-d36bd2ef1c99" />
-  <Project Path="../../2/2/2.csproj" />
-  <Project Path="../../3/3/3.csproj" />
-  <Project Path="1/1.csproj" />
-  <Project Path="2 LAB/2 LAB.csproj" Id="95b47945-ec09-40ed-80bf-fe2d55e06a5c" />
-  <Project Path="3 lab/3 lab.csproj" Id="3dd61421-c625-4a0e-96dd-827b0d91f009" />
+  <Project Path="../../../../../../OneDrive/Documents/laboratorio 8/1/1/1/1.csproj" />
+  <Project Path="../../../../../../OneDrive/Documents/laboratorio 8/1/1/2 LAB/2 LAB.csproj" Id="95b47945-ec09-40ed-80bf-fe2d55e06a5c" />
+  <Project Path="../../../../../../OneDrive/Documents/laboratorio 8/1/1/3 lab/3 lab.csproj" Id="3dd61421-c625-4a0e-96dd-827b0d91f009" />
+  <Project Path="../../../../../../OneDrive/Documents/laboratorio 8/1/1/4/4.csproj" Id="026f08c3-0461-45bb-ace0-1acc4c1ed584" />
+  <Project Path="../../../../../../OneDrive/Documents/laboratorio 8/2/2 ej/2 ej.csproj" Id="eed8f7c0-f294-467c-a5c8-d36bd2ef1c99" />
+  <Project Path="../../../../../../OneDrive/Documents/laboratorio 8/2/2/2.csproj" />
+  <Project Path="../../../../../../OneDrive/Documents/laboratorio 8/3/3/3.csproj" />
 </Solution>
