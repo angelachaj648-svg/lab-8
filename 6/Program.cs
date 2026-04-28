@@ -18,3 +18,17 @@ for (int i = 0; i < estudiantes; i++)
 		Console.Write($"Día {j + 1} (1=Asistió, 0=No asistió): ");
 		asistencia[i, j] = int.Parse(Console.ReadLine());
 	}
+	Console.Write("Ingrese el número del estudiante a consultar: ");
+	int estudianteSeleccionado = int.Parse(Console.ReadLine());
+
+	if (estudianteSeleccionado < 1 || estudianteSeleccionado > estudiantes)
+	{
+		Console.WriteLine("Estudiante no válido.");
+	}
+	else
+	{
+		Console.WriteLine($"Registro de asistencia del estudiante {estudianteSeleccionado}:");
+
+		for (int j = 0; j < dias; j++)
+		{ 
+
