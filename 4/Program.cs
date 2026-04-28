@@ -18,3 +18,12 @@ for (int i = 0; i < estudiantes; i++)
 		calificaciones[i, j] = double.Parse(Console.ReadLine());
 	}
 }
+double notaMaxima = calificaciones[0, 0];
+
+for (int i = 0; i < estudiantes; i++)
+{
+	for (int j = 0; j < evaluaciones; j++)
+	{
+		if (calificaciones[i, j] > notaMaxima)
+		{
+			notaMaxima = calificaciones[i, j];
