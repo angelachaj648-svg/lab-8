@@ -30,5 +30,8 @@ for (int i = 0; i < estudiantes; i++)
 		Console.WriteLine($"Registro de asistencia del estudiante {estudianteSeleccionado}:");
 
 		for (int j = 0; j < dias; j++)
-		{ 
-
+		{
+			Console.WriteLine($"Día {j + 1}: {(asistencia[estudianteSeleccionado - 1, j] == 1 ? "Asistió" : "No asistió")}");
+		}
+	}
+}
