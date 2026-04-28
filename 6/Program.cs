@@ -17,3 +17,4 @@ for (int i = 0; i < estudiantes; i++)
 	{
 		Console.Write($"Día {j + 1} (1=Asistió, 0=No asistió): ");
 		asistencia[i, j] = int.Parse(Console.ReadLine());
+	}
