@@ -27,3 +27,7 @@ for (int i = 0; i < estudiantes; i++)
 		if (calificaciones[i, j] > notaMaxima)
 		{
 			notaMaxima = calificaciones[i, j];
+		}
+	}
+}
+Console.WriteLine($"La nota más alta del grupo es: {notaMaxima}");
