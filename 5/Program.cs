@@ -31,7 +31,18 @@ for (int i = 0; i < filas; i++)
 	for (int j = 0; j < columnas; j++)
 	{
 		if (inventario[i, j] == buscado)
-		{ 		
+		{
 
-			
+			Console.WriteLine($"Valor encontrado en la posición: fila {i + 1}, columna {j + 1}");
+			encontrado = true;
+		}
+	}
+}
+
+if (!encontrado)
+{
+	Console.WriteLine("El valor no se encuentra en el inventario.");
+}
+
+
 
